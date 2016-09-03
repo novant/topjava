@@ -36,7 +36,7 @@ public class UserMealsUtil {
         for (UserMeal userMeal : mealList){
             userMeal.getDateTime().toLocalDate();
             //userMeal.getDateTime().toLocalTime();
-            //userMeal.getCalories();
+            userMeal.getCalories();
         }
         return null;
     }
