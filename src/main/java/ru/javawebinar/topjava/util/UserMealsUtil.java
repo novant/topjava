@@ -37,6 +37,7 @@ public class UserMealsUtil {
             userMeal.getDateTime().toLocalDate();
             //userMeal.getDateTime().toLocalTime();
             userMeal.getCalories();
+            System.out.println("ssss");
         }
         return null;
     }
